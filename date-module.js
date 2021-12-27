@@ -24,7 +24,6 @@ function FCDate(
   hay không nhưng mà bí bách quá ạ 😢
   */
 
-  console.log(arguments);
   Array.prototype.slice.call(arguments).forEach((element) => {
     if (typeof element !== "number") throw Error("Parameters must be Number");
   });
